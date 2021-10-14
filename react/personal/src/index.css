@@ -20,13 +20,13 @@ ol, ul {
 .square {
   background: #fff;
   border: 1px solid #999;
-  float: left;
+  float:inline-start ;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
   height: 34px;
   margin-right: -1px;
-  margin-top: -1px;
+  margin-top: -4px;
   padding: 0;
   text-align: center;
   width: 34px;
@@ -41,7 +41,7 @@ ol, ul {
 }
 
 .game {
-  display: flex;
+  
   flex-direction: row;
 }
 
